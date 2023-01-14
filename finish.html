@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" user-scalable="no">
+    <meta property="og:title" content="나와 딱 맞는 별명은 뭘까?">
+      <meta property="og:image" content="images/title.png">
+    <meta property="og:description" content="친구의 별명을 확인하고 당신도 한번 테스트 해보세요!">
+  <title>나와 딱 맞는 별명은 뭘까?</title>
+
+  <link rel="stylesheet" href="styles/commonStyle.css">
+  <link rel="stylesheet" href="styles/finishStyle.css">
+
+  <script type="text/javascript" src="scripts/fileRead.js?version=2"></script>
+  <script type="text/javascript" src="scripts/finishPageScript.js?version=2"></script>
+
+  </head>
+<body>
+  <div id="main_contents">
+      <p id="text1" class="scrollAnim">당신의 초능력은...</p>
+      <img id="resultImage" src="images/placeholder.png" class="scrollAnim">
+      <p id="text2" class="scrollAnim">어쩌구 저쩌구</p>
+      <p id="text3" class="scrollAnim">이ㅓㅁ니ㅏㅇㅎ알너 하는 능력</p>
+      <ul id="discription" >
+      </ul>
+      <div id = "harmonyWrapper">
+        <div class="harmony scrollAnim" id="good">
+          <p id="goodText">잘 맞는 초능력자</p>
+          <img id="goodImage" src="images/placeholder.png">
+          <p id="goodPower"></p>
+        </div>
+        <div class="harmony scrollAnim" id="bad">
+          <p id="badText">잘 안맞는 초능력자</p>
+          <img id="badImage" src="images/placeholder.png">
+          <p id="badPower"></p>
+        </div>
+      </div>
+      <div class="scrollAnim">
+        <p id="copyText">친구에게 공유해봐요!</p>
+        <button id="copyButton" onclick="copy()">주소 복사하기</button>
+      </div>
+      <div class="scrollAnim">
+        <p id="startText">내 초능력은 뭘까?</p>
+        <button id="startButton" onclick="start()" >테스트 하러가기</button>
+      </div>
+      <div id="dev">
+        <br>
+        <br>
+        
+      </div>
+      <div id="filler"></div>
+  </div>
+</body>
+</html>
