@@ -144,5 +144,5 @@ function copy(){
   tempElem.select();
   document.execCommand('copy');
   document.body.removeChild(tempElem);
-  alert("주소가 복사 됐습니다. 친구에게 공유해보세요!");
+  alert("주소가 복사됐습니다. 친구에게 공유해 보세요!");
 }
